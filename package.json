@@ -1,0 +1,25 @@
+{
+  "name": "agent-lab",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bloub-react": "git+https://github.com/comedianhhh/bloub-react.git#a4c80091139814abda9fe3ce77440ed24fffe721",
+    "motion": "^12.23.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12"
+  }
+}
